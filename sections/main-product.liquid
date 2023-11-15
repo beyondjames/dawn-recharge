@@ -79,6 +79,8 @@
           {%- case block.type -%}
             {%- when '@app' -%}
               {% render block %}
+            {%- when 'recharge-widget' -%}
+              {% render 'rc-widget' %}
             {%- when 'text' -%}
               <p
                 class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
@@ -678,6 +680,10 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "recharge-widget",
+      "name": "Recharge Widget"
     },
     {
       "type": "text",
