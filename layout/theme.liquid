@@ -37,6 +37,22 @@
 
     {{ content_for_header }}
 
+    {% comment %}
+      Recharge SDK init
+    {% endcomment %}
+    <script src="https://static.rechargecdn.com/assets/storefront/recharge-client-1.4.0.min.js"></script>
+    <script>
+      recharge.init({
+        storeIdentifier: '{{ shop.permanent_domain }}', // optional when in a shopify environment
+        storefrontAccessToken: '{{ storefrontAccessToken }}',
+        // retry middleware function if/when Recharge session expires
+        loginRetryFn: () => {
+          const session = recharge.auth.loginShopifyAppProxy();
+          return session;
+        },
+      });
+    </script>
+
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
       assign body_font_italic = settings.type_body_font | font_modify: 'style', 'italic'
