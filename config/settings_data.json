@@ -129,12 +129,6 @@
 
     ],
     "blocks": {
-      "4287832292855233755": {
-        "type": "shopify:\/\/apps\/cart-upsells-app\/blocks\/cart-upsells\/f61ef53d-e372-41df-8899-2a39dd27036b",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "17151115064775110295": {
         "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
         "disabled": true,
@@ -149,6 +143,20 @@
           "images_aspect_ratio": "1",
           "cards_background": "#FFFFFF",
           "cards_border_color": "rgba(0,0,0,0)"
+        }
+      },
+      "4287832292855233755": {
+        "type": "shopify:\/\/apps\/cart-upsells-app\/blocks\/cart-upsells\/f61ef53d-e372-41df-8899-2a39dd27036b",
+        "disabled": false,
+        "settings": {
+          "brand_color": "#334FB4",
+          "contrast_color": "#ffffff",
+          "text_color": "#000000",
+          "background_color": "#DADDED",
+          "corners": "gentle-corners",
+          "vertical_padding": 20,
+          "horizontal_padding": 20,
+          "custom_css": ".test { color: red };"
         }
       }
     },
