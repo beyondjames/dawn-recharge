@@ -149,10 +149,10 @@
         "type": "shopify:\/\/apps\/cart-upsells-app\/blocks\/cart-upsells\/f61ef53d-e372-41df-8899-2a39dd27036b",
         "disabled": false,
         "settings": {
-          "brand_color": "#334FB4",
+          "brand_color": "#334fb4",
           "contrast_color": "#ffffff",
           "text_color": "#000000",
-          "background_color": "#DADDED",
+          "background_color": "#dadded",
           "corners": "gentle-corners",
           "vertical_padding": 20,
           "horizontal_padding": 20,
