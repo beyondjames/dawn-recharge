@@ -131,7 +131,7 @@
     "blocks": {
       "4287832292855233755": {
         "type": "shopify:\/\/apps\/cart-upsells-app\/blocks\/cart-upsells\/f61ef53d-e372-41df-8899-2a39dd27036b",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
