@@ -156,7 +156,7 @@
           "corners": "gentle-corners",
           "vertical_padding": 20,
           "horizontal_padding": 20,
-          "custom_css": ".test { color: red };"
+          "custom_css": ".h2 { color: red };"
         }
       }
     },
