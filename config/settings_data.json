@@ -154,9 +154,12 @@
           "text_color": "#000000",
           "background_color": "#dadded",
           "corners": "gentle-corners",
+          "alignment": "align-left",
+          "uppercase": true,
+          "primary_button_class": "button button--full-width",
+          "secondary_button_class": "button button--full-width button--secondary",
           "vertical_padding": 20,
-          "horizontal_padding": 20,
-          "custom_css": ".h2 { color: red };"
+          "horizontal_padding": 20
         }
       }
     },
