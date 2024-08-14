@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "logo_width": 90,
@@ -148,12 +157,12 @@
       },
       "13713679944271009282": {
         "type": "shopify:\/\/apps\/cart-promotions\/blocks\/cart-promotions\/f61ef53d-e372-41df-8899-2a39dd27036b",
-        "disabled": false,
+        "disabled": true,
         "settings": {
-          "brand_color": "#334FB4",
+          "brand_color": "#334fb4",
           "contrast_color": "#ffffff",
           "text_color": "#000000",
-          "background_color": "#DADDED",
+          "background_color": "#dadded",
           "corners": "gentle-corners",
           "alignment": "align-left",
           "uppercase": true,
