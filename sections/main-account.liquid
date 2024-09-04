@@ -24,6 +24,8 @@
       {{ 'customer.log_out' | t }}
     </a>
 
+<p>Preferred Delivery Day: {{ customer.metafields.custom.preferred_delivery_day }}</p>
+
 {% render 'loop-subscriptions', type: 'customer-portal-link' %}
 
   </div>
